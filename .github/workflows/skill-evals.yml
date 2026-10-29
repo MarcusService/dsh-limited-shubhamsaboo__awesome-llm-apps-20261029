@@ -1,6 +1,7 @@
 name: skill-evals
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "agent_skills/**"
